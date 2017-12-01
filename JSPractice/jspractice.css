@@ -1,0 +1,132 @@
+body{
+    background-color:#3F3C47;
+    box-sizing: border-box;
+}
+p{color:#dedede; margin=10px; font-family: 'PT Sans', sans-serif;}
+h3{color:#dedede;margin-bottom: 0;font-family: 'PT Sans', sans-serif;}
+
+hr{margin:0;padding:0;}
+header{
+   background-color:#080808;
+}
+
+img{
+    height: 25px;
+    width: 25px;
+    margin-bottom: 5px;
+}
+.container{
+     
+    display:flex;
+    justify-content: space-around;
+    align-content: center;
+    
+}
+
+.container div{
+    flex:2;
+}
+.container nav{
+    flex:1;
+}
+header div p{
+    margin:15px;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    color:#dedede;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+    color:darkcyan;
+}
+.problem{
+    display: flex;
+    
+    flex-wrap:wrap;
+    justify-content:flex-start;
+    align-items:stretch;
+}
+aside.left{
+    order:1;
+    position: relative;
+}
+aside.right{
+    order:3;
+}
+
+
+aside div{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+aside div h3{ 
+    margin-top:2px;
+}
+article{
+    background-color: #202021;
+    margin-top:40px;
+    flex:1;
+    width: 30%;
+    order:2;
+    
+}
+
+
+article.container {
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+article div{ 
+    margin:10px;
+    
+}
+.forms{
+    align-self: center;
+}
+article form{
+    margin-bottom: 25px;
+    
+}
+
+aside{
+    width:18%;
+}
+
+
+article div:last-child{
+    
+}
+article form input{
+    border:1px solid #202021;
+    width: 200px;
+    padding:5px;
+    font-size:18px;
+    text-align: center;
+    
+}
+
+article form input:hover{
+   border:1px solid #fff;
+    
+}
+button{
+    width:30%;
+    align-self: center;
+    padding:10px;
+    font-size:18px;
+}
+
+@media (max-width:800px){
+
+}
